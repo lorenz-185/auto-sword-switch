@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "autoswordswitch",
+	"version": "${version}",
+	"name": "Auto Sword Switch",
+	"description": "Wechselt in der Hotbar automatisch auf das naechste Schwert, bevor das aktuelle kaputtgeht. Gedacht fuer AFK-Farmen.",
+	"authors": [],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.autoswordswitch.AutoSwordSwitchClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
